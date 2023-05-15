@@ -1,0 +1,222 @@
+@media all and (max-width: 519px) {
+    .background {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        margin-top: -8px;
+        margin-left:-8px;
+        background-color: hsl(185, 75%, 39%);
+    }
+    
+    .backgroundTop {
+        position: absolute;
+        height: 600px;
+        width: 600px;
+        top: 50%;
+        left: 50%;
+        margin-top: -680px;
+        margin-left: -580px;
+        
+    }
+    
+    .backgroundBottom {
+        position: absolute;
+        height: 600px;
+        width: 600px;
+        bottom: 50%;
+        right: 50%;
+        margin-bottom: -620px;
+        margin-right: -600px;
+    }
+    
+    .card {
+        position: absolute;
+        height: 400px;
+        width: 330px;
+        top: 50%;
+        left: 50%;
+        margin-top: -200px;
+        margin-left: -165px;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+    
+    .cardTopImage {
+        height: 150px;
+        width: 330px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .profilePicture {
+        height: 100px;
+        width: 100px;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        border-radius: 70px;
+        border: solid white 5px;
+    }
+    
+    h1 {
+        display: inline-block;
+        color: hsl(229, 23%, 23%);
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        color: hsl(227, 10%, 46%);
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    h3 {
+        margin-top: -5px;
+        margin-bottom: 25px;
+        color: hsl(227, 10%, 46%);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .line {
+        height: 1px;
+        width: 100%;
+        background-color: hsl(227, 10%, 46%);
+        opacity: 0.2;
+    }
+    
+    .allStats {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .stats {
+        text-align: center;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: px;
+    }
+    
+    p {
+        margin-top: -10px;
+        color: hsl(0, 0%, 59%);
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+}
+
+@media all and (min-width: 520px) {
+    .background {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        margin-top: -8px;
+        margin-left:-8px;
+        background-color: hsl(185, 75%, 39%);
+    }
+    
+    .backgroundTop {
+        position: absolute;
+        height: 1200px;
+        width: 1200px;
+        top: 50%;
+        left: 50%;
+        margin-top: -1110px;
+        margin-left: -1230px;
+        
+    }
+    
+    .backgroundBottom {
+        position: absolute;
+        height: 1200px;
+        width: 1200px;
+        bottom: 50%;
+        right: 50%;
+        margin-bottom: -1200px;
+        margin-right: -1230px;
+    }
+    
+    .card {
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -250px;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+    
+    .cardTopImage {
+        height: 180px;
+        width: 500px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .profilePicture {
+        height: 120px;
+        width: 120px;
+        margin-top: -70px;
+        border-radius: 70px;
+        border: solid white 7px;
+    }
+    
+    h1 {
+        display: inline-block;
+        color: hsl(229, 23%, 23%);
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        color: hsl(227, 10%, 46%);
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    h3 {
+        margin-top: -5px;
+        margin-bottom: 35px;
+        color: hsl(227, 10%, 46%);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .line {
+        height: 1.4px;
+        width: 100%;
+        background-color: hsl(227, 10%, 46%);
+        opacity: 0.2;
+    }
+    
+    .allStats {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .stats {
+        text-align: center;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 65px;
+        margin-right: 20px;
+    }
+    
+    p {
+        margin-top: -10px;
+        color: hsl(0, 0%, 59%);
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+}
